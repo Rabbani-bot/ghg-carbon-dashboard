@@ -1,0 +1,17 @@
+{
+  "total_tco2e": 14971.8,
+  "by_scope_tco2e": {
+    "Scope 1": 1053.9,
+    "Scope 2": 4422.9,
+    "Scope 3 (cat. 1)": 9495.0
+  },
+  "suppliers_switched": [
+    "Supplier A",
+    "Supplier B",
+    "Supplier E"
+  ],
+  "scope3_cat1_reduction_pct": 27.3,
+  "macc_options": 12,
+  "macc_no_regret_tco2e": 1001.6,
+  "macc_total_tco2e": 3316.7
+}

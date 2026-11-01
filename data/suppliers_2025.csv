@@ -1,0 +1,9 @@
+supplier,material,annual_spend_usd,intensity_kg_per_usd,alt_intensity_kg_per_usd,alt_cost_premium_pct
+Supplier A,steel,2400000.0,1.65,1.05,6.0
+Supplier B,aluminium,1100000.0,2.1,1.2,9.0
+Supplier C,plastics,900000.0,0.95,0.8,4.0
+Supplier D,packaging,600000.0,0.55,0.5,2.0
+Supplier E,chemicals,800000.0,1.2,1.0,5.0
+Supplier F,electronics,700000.0,0.45,0.45,0.0
+Supplier G,steel,500000.0,1.05,1.05,0.0
+Supplier H,logistics,400000.0,0.6,0.55,3.0

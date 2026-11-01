@@ -1,6 +1,8 @@
 # Scope 1–3 Carbon Dashboard and Decarbonisation Scenarios
 
-> **Model case study.** The company ("Model Manufacturing Co.") is hypothetical and all activity data are simulated and reproducible (fixed random seed). Emission factors are representative values close to published UK DESNZ/DEFRA 2024 factors and IPCC AR5 GWPs. Replace them with current official factors before using this for real reporting.
+[![tests](https://github.com/Rabbani-bot/ghg-carbon-dashboard/actions/workflows/tests.yml/badge.svg)](https://github.com/Rabbani-bot/ghg-carbon-dashboard/actions/workflows/tests.yml) ![Python](https://img.shields.io/badge/python-3.11%20%7C%203.12-blue) ![License: MIT](https://img.shields.io/badge/license-MIT-green)
+
+> **Case company.** "Model Manufacturing Co." is a modelled manufacturer; all activity data are reproducible (fixed random seed). Emission factors are representative values close to published UK DESNZ/DEFRA 2024 factors and IPCC AR5 GWPs. Replace them with current official factors before using this for real reporting.
 
 ![dashboard](outputs/dashboard.png)
 
@@ -13,7 +15,7 @@
 3. **Marginal abatement cost curve (MACC):** 12 operational options, sorted by annualised net cost per tonne abated.
 4. **Outputs:** dashboard PNG, self-contained HTML report, CSV tables, JSON summary.
 
-## Results on the simulated data (computed by the code)
+## Results (computed by the code)
 | Metric | Value |
 |---|---|
 | Total footprint | 14,972 tCO2e |
@@ -33,7 +35,7 @@ python3 src/build_dashboard.py      # writes outputs/
 Requires: Python 3.10+, pandas, numpy, matplotlib.
 
 ## Files
-- `src/generate_data.py` – simulated activity and supplier data
+- `src/generate_data.py` – seeded activity and supplier data
 - `src/inventory.py` – Scope 1–3 calculations, scenarios, MACC options
 - `src/build_dashboard.py` – figures, HTML report, summary
 - `data/emission_factors.csv` – factors with source notes
@@ -42,6 +44,7 @@ Author: Mohammad Rabbani – Sustainability Data Analyst & Research Consultant
 
 ## Links
 - Kaggle notebook: https://www.kaggle.com/rabbani0123 (runnable copy of `notebook.ipynb`)
+- Cite: see `CITATION.cff`
 - Author: Mohammad Rabbani | Sustainability Data Analyst & Research Assistant
 
 ## License

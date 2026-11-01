@@ -1,0 +1,7 @@
+supplier,material,annual_spend_usd,intensity_kg_per_usd,alt_intensity_kg_per_usd,alt_cost_premium_pct,abatement_tco2e,extra_cost_usd,cost_per_tco2e
+Supplier B,aluminium,1100000.0,2.1,1.2,9.0,990.0,99000.0,100.0
+Supplier A,steel,2400000.0,1.65,1.05,6.0,1440.0,144000.0,100.0
+Supplier E,chemicals,800000.0,1.2,1.0,5.0,160.0,40000.0,250.0
+Supplier C,plastics,900000.0,0.95,0.8,4.0,135.0,36000.0,266.67
+Supplier D,packaging,600000.0,0.55,0.5,2.0,30.0,12000.0,400.0
+Supplier H,logistics,400000.0,0.6,0.55,3.0,20.0,12000.0,600.0

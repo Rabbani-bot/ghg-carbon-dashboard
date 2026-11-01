@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "Scope 1–3 Carbon Dashboard and Decarbonisation Scenarios"
+authors:
+  - family-names: Rabbani
+    given-names: Mohammad
+version: 1.0.0
+date-released: 2026-11-01
+license: MIT
+repository-code: "https://github.com/Rabbani-bot/ghg-carbon-dashboard"
+keywords: [ghg-protocol, carbon-footprint, scope-3, macc, decarbonization, dashboard, esg, sustainability, python]

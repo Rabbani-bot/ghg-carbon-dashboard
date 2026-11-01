@@ -1,0 +1,5 @@
+activity,unit,kgco2e_per_unit,scope,source_note
+natural_gas,kWh,0.183,1,"Representative; close to UK DESNZ/DEFRA 2024 natural gas (gross CV). Replace with current official factor for real reporting."
+diesel,litre,2.512,1,"Representative; close to UK DESNZ/DEFRA 2024 diesel (average biofuel blend)."
+refrigerant_R410A,kg,1924,1,"GWP100 of R-410A from IPCC AR5."
+grid_electricity,kWh,0.450,2,"Representative location-based grid factor. Use the national/regional factor for the actual grid."
