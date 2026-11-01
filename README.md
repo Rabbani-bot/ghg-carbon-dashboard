@@ -43,7 +43,7 @@ Requires: Python 3.10+, pandas, numpy, matplotlib.
 Author: Mohammad Rabbani – Sustainability Data Analyst & Research Consultant
 
 ## Links
-- Kaggle notebook: https://www.kaggle.com/rabbani0123 (runnable copy of `notebook.ipynb`)
+- Kaggle notebook (runs end-to-end on Kaggle): https://www.kaggle.com/code/rabbani0123/scope-1-3-carbon-dashboard-and-abatement-curve
 - Cite: see `CITATION.cff`
 - Author: Mohammad Rabbani | Sustainability Data Analyst & Research Assistant
 
